@@ -1,4 +1,4 @@
-# WaveCore Manager - Backend 3 (MCP & Agentic RAG)
+# WaveCore Manager - Backend 3 (MCP & Agentic RAG) xp
 
 Backend de microservicio avanzado desarrollado en **Python con FastAPI**, diseñado para actuar como el núcleo de razonamiento inteligente de **WaveCore Manager**. Este servicio implementa un sistema de agentes basados en **LangChain**, integrados mediante **Model Context Protocol (MCP)** para realizar consultas cruzadas avanzadas entre las tablas relacionales de **Supabase** y los fragmentos vectoriales (*chunks*) de los documentos corporativos.
 
