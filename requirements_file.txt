@@ -1,0 +1,32 @@
+# Core & Web Framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+
+# Database & Vectors
+supabase>=2.3.0
+asyncpg>=0.29.0
+pgvector>=0.2.5
+
+# AI & Orchestration
+langchain>=1.0.0,<2.0.0
+langchain-core>=1.0.0
+langgraph>=1.0.0
+langchain-community>=0.4.0
+langchain-google-genai>=4.0.0,<5.0.0
+google-generativeai>=0.4.1
+
+# Protocol
+mcp>=1.0.0,<2.0.0
+
+# Security
+PyJWT[crypto]>=2.8.0
+
+# Utilities
+httpx>=0.27.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
